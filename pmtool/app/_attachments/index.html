@@ -1,0 +1,57 @@
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>PMTool - Project Manager Dashboard Tool</title>
+    <!-- DHTMLX Scripts: Base Suite, Gantt, Scheduler -->
+    <script src="dhtmlx/codebase/dhtmlx.js" type="text/javascript" charset="utf-8"></script> 
+    <script src="dhtmlx/gantt/codebase/dhtmlxgantt.js"  type="text/javascript" charset="utf-8"></script>   
+    <link href="dhtmlx/skins/material/dhtmlx.css" rel="stylesheet" type="text/css" > 
+    <link href="dhtmlx/gantt/codebase/dhtmlxgantt.css" rel="stylesheet" type="text/css">
+    <link href="dhtmlx/codebase/fonts/font_awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <style type="text/css" media="screen">
+        /* it's important to set width/height to 100% for full-screen init */
+        /*
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            overflow: hidden;
+        }
+        */
+        html, body{
+            margin:0px;
+            padding:0px; height:100%;
+        }
+        .fa{
+            cursor: pointer;
+            font-size: 14px;
+            text-align: center;
+            opacity: 0.2;
+            padding: 5px;
+        }
+        .fa:hover{
+            opacity: 1;
+        }
+        .fa-pencil{
+            color: #ffa011;
+        }
+        .fa-plus{
+            color: #328EA0;
+        }
+        .fa-times{
+            color: red;
+        }
+    </style>
+    
+    <script src="app/utils.js"  type="text/javascript" charset="utf-8"></script>       
+    <script src="app/app.js"  type="text/javascript" charset="utf-8"></script>   
+    <script>
+        dhtmlxEvent(window,"load",function(){ 
+            myApp.init();
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
